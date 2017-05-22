@@ -1,119 +1,25 @@
 <html>
 <head>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-<title>My website</title>
-
-<style>
-body {
-	background-color: black;
-}
-* {
-	font-family: 'Lucida console';
-}
-div.myDiv * {
-	color: purple;
-}
-a {
-	color: #AAEEFF;
-}
-h1, h2, h6 {
-	color: yellow;
-}
-
-#awesomeHeader {
-	color: red;
-	font-size: 50px;
-	text-decoration: underline;
-	text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
-}
-
-.myDiv {
-	border: 1px solid black;
-	width: 100px;
-	overflow:auto;
-	height: 100px;
-	
-}
-a{
-	margin-left: 0;
-}
-
-.nguyen{
-	position: absolute;
-	left: 50;
-	bottom: 0;
-}
-
-</style>
-
-<script>
-function onion(){
-	console.log("NGUYRDGVB");
-}
-onion();
-
-$(document).ready(function (){
-	var interval = setInterval(function() {
-		console.log("I'm an idiot");
-	}, 100);
-	
-	console.log("REASHOASHDIOASDASJDOI");
-	$("body").keydown(function(key){
-		console.log("ASDLJSALKDJ");
-		thiss = "div.nguyen";
-		var marginh = $(thiss).css("margin-left");
-		var indexh = marginh.indexOf("p");
-		marginh = marginh.substring(0,indexh);
-		var marginv = $(thiss).css("margin-bottom");
-		var indexv = marginv.indexOf("p");
-		marginv = marginv.substring(0,indexv);
-		if(key.which==39){
-		$(thiss).css("margin-left", parseInt(marginh)+1);}
-		if(key.which==37){
-		$(thiss).css("margin-left", parseInt(marginh)-1);}
-		if(key.which==38){
-		$(thiss).css("margin-bottom", parseInt(marginv)+1);}
-		if(key.which==40){
-		$(thiss).css("margin-bottom", parseInt(marginv)-1);}
-console.log(marginh);
-console.log(marginv);
-	});
-	//$("#awesomeHeade")
-});
-</script>
-
+    <title>Arvind's website</title>
+    <style>
+       ul{
+           display: inline;
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           width: 60px;
+           backgrounf-color: #f1f1f1;
+       }
+    </style>
 </head>
 <body>
-<h1 id="awesomeHeader" class="resumeLink">My website</h1>
-<a href = "game.html">Click here for the game</a>
-<h2 class="resumeLink">My links</h2>
-<marquee><h6>sadadas</h6></marquee>
-<a href = "http://google.com">click here for google</a>
-<br><br>
-<div class="myDiv">
-	<a href = "resume.html"><span style="color: green">click</span> here for my resume</a>
-	<br><br>
-	<a href = "resume.html">click here for my resume</a>
-	<br><br>
-	<a href = "resume.html">click here for my resume</a>
-	<br><br>
-	<p>
-		The quick abasldkjaskldjaskldjaskldjaskldjklsajdklasjdkl.
-	</p>
-</div>
-<a href = "neural.html">click here for neural</a>
-<br><br>
-<a href = "http://google.com">click here for google</a>
-<br><br>
-<a href = "http://google.com">click here for google</a>
-<br><br>
-<a href = "http://google.com">click here for google</a>
-<br><br>
-<a href = "http://google.com">click here for google</a>
-<br><br>
+<ul>
+    <li>Home</li>
+    <li>About</li>
+    <li>Math</li>
+    <li>Science Olympiad</li>
+    <li>Contact</li>
+</ul>
 
-
-
-<div class="nguyen" style = "border:1px solid white; height: 100px; width: 100px;"></div>
 </body>
 </html>
