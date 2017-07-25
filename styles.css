@@ -1,0 +1,55 @@
+body{
+	background-color: lightblue;
+	font-family: "Trebuchet MS";
+}
+header{
+  border-radius: 10px;
+	height: 350px;
+	top: 0;
+	background-size: cover;
+	background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+	 url(images/tech.png);
+	 background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.headtxt{
+	font-family: "Tahoma", "Trebuchet MS", "Roboto Slab", sans-serif;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	color: lightgray;
+}
+.container{
+	margin-top: 20px;
+
+}
+.content{
+  border: 1px solid gray;
+  float: left;
+	background-color: lightgray;
+	border-radius: 10px;
+	width: 65vw;
+	padding: 10px;
+  margin-left: 1vw
+}
+.navbar{
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  float: right;
+	padding: 10px;
+	width: 200px;
+	background-color: rgb(153, 255, 187);
+	border-radius: 10px;
+  margin-right: 2vw
+}
+.navbar a{
+	color: blue;
+	text-decoration: none;
+}
+.navbar a:hover{
+	text-decoration: underline;
+};
