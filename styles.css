@@ -15,6 +15,20 @@ header{
 	align-items: center;
 
 }
+#pic{
+	height: 200px;
+	width: 200px;
+	border-radius: 200px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -130px;
+}
+.resize{
+	width: 200px;
+	height: 200px;
+}
 .headtxt{
 	font-family: "Tahoma", "Trebuchet MS", "Roboto Slab", sans-serif;
 	font-weight: bold;
@@ -23,7 +37,7 @@ header{
 	color: lightgray;
 }
 .container{
-	margin-top: 20px;
+	margin-top: -180px;
 
 }
 .content{
