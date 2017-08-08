@@ -22,6 +22,8 @@ function onDragMove(event){
 	event.currentTarget.style.transform = 'translate(' + translateX + 'px, ' + translateY + 'px)';
 }
 function onDragEnd(event){
+	offsetX += event.clientX-originX;
+	offsetY += event.clientY-originY;
 	dragStart = false;
 }
 
