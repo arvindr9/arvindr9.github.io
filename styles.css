@@ -1,3 +1,16 @@
+@keyframes fade-animation{
+	from{
+		opacity: 0;
+		z-index: -1;
+	}
+	to{
+		z-index: -1;
+		opacity: 1;
+
+	}
+}
+
+
 body{
 	background-color: lightblue;
 	font-family: "Trebuchet MS";
@@ -16,6 +29,7 @@ header{
 
 }
 #pic{
+	z-index: 1;
 	height: 200px;
 	width: 200px;
 	border-radius: 200px;
@@ -41,6 +55,7 @@ header{
 
 }
 .content{
+	animation: fade-animation 3s;
   border: 1px solid gray;
   float: left;
 	background-color: lightgray;
