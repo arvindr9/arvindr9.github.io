@@ -15,21 +15,55 @@
 		</header>
 		<div id = 'pic'><img class = "resize" src = 'images/arvind.jpg'/></div>
 		<div class = 'container'>
-		<div class = 'content'>
-			<h1>Projects</h1>
-			<p>This page is for my CS-related projects (I am currently working on JS projects).</p>
+			<div class = 'content'>
+				<h1>Projects</h1>
+				<p>This page is for my CS-related projects.</p>
 
-			<p>Below is a glass penny that was manufactured during WW2! More info can be seen <a href = "http://www.wrcbtv.com/story/34173936/rare-experimental-wwii-penny-made-of-glass-headed-to-auction">here</a>. I used Javascript to give the user of this website the ability to drag the penny.</p>
-			<img src = "images/penny.jpg" id = 'penny'/>
-		</div>
+				<h2>Home Depot Deep Learning Challenge</h2>
+				<p>This was my first experience in a Deep Learning competition. This challenge involved solving
+					six problems as a team. I worked on the image recognizer and used a two-layer Convolutional
+					Neural Network with Tensorflow to classify chandeliers, shower heads,
+					ceiling fans, vanity lighting, floor lamps and single handle
+					bathroom sing faucets. Below are examples of how the images looked.
+				</p>
+				<div class = "images">
+				<img src = "images/Projects/faucet.jpg"></img>
+				<img src = "images/Projects/fan.jpg"></img>
+				</div>
+				<p>To avoid overfitting, we used dropout regularization, which 
+					involves certain nodes having a probability of shutting down during each step of the 
+					neural network optimization. We ended up with 89% accuracy on the test set.
+				</p>
 
+				<h2>WeLocate</h2>
+				<p><emph>Awards: Best Financial Hack, Most Disruptive Hack</emph></p>
+				<p>This project was created at VandyHacks. WeLocate is a website that
+					recommends small businesses to open up. The website was created to locate ice cream stores
+					as a proof of concept that any business can be located in a similar fashion. The team used AWS
+					Machine Learning to train for recommended locations based on data from the Yelp API of the locations
+					of other ice cream stores and Census data on the populations of regions in the United States. I used
+					NodeJS to send a post request when requests were submitted on the page, which would run Python scripts
+					to obtain data and train it using AWS Machine Learning. This was a useful experience in Node and also
+					in Python data manipulation. See more info <a href="https://devpost.com/software/welocate-7mjhra">here</a>.
+				</p>
 
+				<h2>FiscAlert</h2>
+				<p>This was my first hackathon (HackGT). The team created a fraud-detecter for credit card transaction using an 
+					Anomaly Detection algorithm using Java.
+					I created the website using HTML/CSS/JS and used Fetch API to pipe data about whether sample transactions 
+					were fraudulent from a text file to a web page. See more info <a href="https://devpost.com/software/fiscalert">here</a>.
+				</p>
 
-		<div class = 'navbar'>
-			<h3><a href = 'index.html'>Home</a></h3>
-			<h3><a href = 'about.html'>About</a></h3>
-			<h3><a href = 'projects.html'>Projects</a></h3>
-		</div>
+				<h2>Draggable penny</h2>
+				<p>Below is a glass penny that was manufactured during WW2! More info can be seen <a href = "http://www.wrcbtv.com/story/34173936/rare-experimental-wwii-penny-made-of-glass-headed-to-auction">here</a>. I used Javascript to give the user of this website the ability to drag the penny.</p>
+				<img src = "images/Projects/penny.jpg" id = 'penny'/>
+			</div>
+
+			<div class = 'navbar'>
+				<h3><a href = 'index.html'>Home</a></h3>
+				<h3><a href = 'about.html'>About</a></h3>
+				<h3><a href = 'projects.html'>Projects</a></h3>
+			</div>
 		</div>
 	</body>
 </html>
