@@ -1,0 +1,16 @@
+---
+layout: page
+title: Blog
+permalink: /blog/
+---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+<ul style="margin-bottom: 1.5em;">
+    {% for post in site.posts %}
+        <li>
+            <h3 class="info"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+            <h4 class="info">{{ post.date | date: "%b %-d, %Y" }}</h4>
+            <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }} <a id="continuelink" href="{{ post.url | prepend: site.baseurl }}">Continue Reading &#10095;</a></p>
+        </li>
+    {% endfor %}
+
