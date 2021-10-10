@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "test"
+date:   2021-10-10 17:45:00 -0400
+categories: blog
+---
+This is a test blog post.
