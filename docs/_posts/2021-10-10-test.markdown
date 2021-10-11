@@ -1,9 +1,15 @@
 ---
 layout: post
-title:  "test"
+title:  "Hello!"
 date:   2021-10-10 17:45:00 -0400
 categories: blog
 ---
-This is a test blog post.
 
-$$Does \Latex work$$?
+Hello! I am Arvind, a student at Georgia Tech. I have decided to start a blog.
+
+## What is this the purpose of this blog?
+
+I've been studying research areas in theoretical computer science (related to graphs, combinatorial optimization, and machine learning). I'd like this blog to be a resource for others to learn tidbits about research that has been done in these topics, and I plan to write about recent things that I have learned / worked on.
+
+
+$$Does \Latex work$$? (I'm new to Jekyll so I'm in the process of figuring things out :) )
