@@ -22,7 +22,8 @@ I started trying this 10-minute block thing on Sunday. I have to write a researc
 I don’t think I’ll be able to reach 20 hours this week :( , partially since I’ve been extremely busy for the last two days with other assignments and activities (I had a 5-hour ICPC practice yesterday!), but it’s Wednesday now, and I managed to put in 4 hours of effort. That may or may not sound like a lot, but keep in mind that these are 4 _productive_ hours of work. Imagine working for a 4-hour block (i.e. 12-4 pm) and being extremely productive the entire time (I can’t relate to this kind of thing, and I’d imagine it’s also uncommon for others to be able to be productive continuously for 4 hours).
 
 You can see my last few entries here (related to reading <a href = "https://arxiv.org/pdf/1201.1214.pdf">this paper</a>)
-<img src = '../files/nov10_notes.jpeg'>
+
+![](../../../../files/nov10_notes.jpeg)
 
 Maybe 10 minutes is too little for a block? I feel like I’ve been able to boost my productivity significantly, but maybe it’s not great if you want to do deep work? (i.e. work on something open-ended, which might require you to think about it continuously for an hour). I’m not sure about this, but would be happy to discuss it. I personally feel that having a 10 minute block will make me less prone to temptations such as checking my phone, emails, etc… and makes it much easier to put in all of my focus on a task.
 
