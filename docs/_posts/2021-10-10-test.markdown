@@ -13,3 +13,6 @@ I've been studying research areas in theoretical computer science (related to gr
 
 
 $$Does \Latex work$$? (I'm new to Jekyll so I'm in the process of figuring things out :) )
+
+$$5x + 6$$
+
