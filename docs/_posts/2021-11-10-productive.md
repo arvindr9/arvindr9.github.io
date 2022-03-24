@@ -5,6 +5,8 @@ date:   2021-11-10 18:10:00 -0400
 categories: blog
 ---
 
+{% include_relative posts.html %}
+
 Some disclaimers: I only just came up with this idea recently on Sunday (Nov 7 2021), and I’d say it’s not well-tested. Also, this idea probably fails if you’re trying to invest the core of your time on more than 1 project, but I’d say it’s worth trying if your goal is just to focus on one project.
 
 For some context, when I did research in my undergrad, I didn’t really have a structured way of putting in work. I would generally have more incentive to work on it the day before my research meeting, and the process would end up being rushed and rather stressful. I think this has also been the case for many other projects that I have worked on.

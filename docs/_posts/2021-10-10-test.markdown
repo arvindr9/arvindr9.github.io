@@ -19,3 +19,5 @@ $$5x + 6$$a
 $$ \nabla_\boldsymbol{x} J(\boldsymbol{x}) $$
 
 b
+
+c
