@@ -45,9 +45,6 @@ We can also discuss the following to see what happens during the regularization 
 
 Consider the constraint $$\sum_{i=1}^d \beta_i \leq t$$. The region for feasible $$\beta$$ can be seen in the shaded region in the image below (image source from [1]):
 
-
-TODO: make this smaller
-
 ![](../../../../files/L1.png)
 
 $$\hat{\beta}$$ is the least-squares optimal solution, and each ring is the set of points where the loss function is equal to a certain value (note that the contours have this structure since the least-squares loss is convex). We want to minimize the loss while being within the boundary, and this will in general happen when we are at a "corner" of the boundary; i.e. the solution that is given will have a sparse structure. Having few nonzeros is advantageous in that 1) it is a simple model and will thus be less likely to overfit, and 2) the model is interpretable since we can better determine which variables (i.e. the nonzeros) have a contribution to the problem we have at hand.
