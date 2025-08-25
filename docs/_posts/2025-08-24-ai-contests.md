@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Navigating competitive programming in the era of LLMs"
-date:   2022-08-25 18:10:00 -0400
+date:   2022-08-24 18:10:00 -0400
 categories: blog
 ---
 
