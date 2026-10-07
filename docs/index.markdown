@@ -6,4 +6,4 @@ layout: home
 ---
 
 
-<a href = "Resume_arvind.pdf">Resume</a>
+<a href = "arvind_resume.pdf">Resume</a>
